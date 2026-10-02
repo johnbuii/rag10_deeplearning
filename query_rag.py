@@ -2,7 +2,7 @@ import chromadb
 from sentence_transformers import SentenceTransformer
 
 
-INPUT_TEXT = "What does the agreement say about conflicts of interest?"
+INPUT_TEXT = "Answer the BYU and TCU question."
 DISTANCE_METRIC = "cosine"
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
